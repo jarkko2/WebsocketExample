@@ -1,0 +1,10 @@
+<div>
+    <label>Author</label>
+    <input type="text" [(ngModel)]="author">
+    <label>Message</label>
+    <input type="text" [(ngModel)]="message">
+    <button (click)="sendMsg()">Send Message</button>
+</div>
+<div *ngFor="let message of messages">
+    <p> {{message.author}} | {{message.message}} </p>
+</div>
