@@ -1,5 +1,5 @@
 # Websocket Tutorial
-This is an simple chat example project on Angular 16 and Node.js websocket
+This is a simple chat example project on Angular 16 and Node.js websocket
 
 ## Install and test
 * Run `npm install` on frontend and backend
